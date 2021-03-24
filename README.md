@@ -8,4 +8,5 @@ API_KEY - tekegram bot api key\
 Commands:\
 /server_start - starts server\
 /server_stop - stops server\
+/server_load_info - gives information about host's load\
 /* with working server send command to server
