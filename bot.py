@@ -56,9 +56,7 @@ def server_load_info(update, context):
 
 proc = None
 status_process = Process(target=status)
-print(os.environ['API_KEY'])
 my_token = os.environ.get('API_KEY')
-print(os.environ['ADMIN_ID'])
 admin_id = int(os.environ.get('ADMIN_ID'))
 # api key and admin id in environmental variable
 bot = telegram.Bot(token=my_token)
